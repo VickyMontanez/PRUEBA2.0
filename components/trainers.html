@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="../js/trainers.js" type="module" defer></script>
+</head>
+<body>
+
+<!-- Formulario para que los trainers añadan reclutas -->
+        <form class="form" id="reclutas">
+            <fieldset>
+                <legend>Datos del recluta</legend>
+                <div>
+                    <p>
+                        <label for="nombre">Nombre:</label>
+                        <input type="text" name="nombre" id="nombre" placeholder="Ingresa el nombre del recluta">
+                    </p>
+                    <p>
+                        <label for="edad">Edad:</label>
+                        <input type="text" name="edad" id="edad" placeholder="Ingresa la edad del recluta">
+                    </p>
+                </div>
+                <div>
+                    <p>
+                        <label for="telefono">Telefono:</label>
+                        <input type="number" name="telefono" id="telefono" placeholder="Ingresa el telefono del recluta">
+                    </p>
+                    <p>
+                        <label for="email">Email</label>
+                        <input type="text" name="email" id="email" placeholder="Ingresa el email del recluta">
+                    </p>
+                </div>
+                <div>
+                    <p>
+                        <label for="direccion">Dirección:</label>
+                        <input type="text" name="direccion" id="direccion" placeholder="Ingresa la direccion del recluta">
+                    </p>
+                    <p>
+                        <label for="dateBirth">Fecha de nacimiento:</label>
+                        <input type="date" name="dateBirth" id="dateBirth" >
+                    </p>
+                </div>
+                <div>
+                    <p>
+                        <label for="numId">Número de identificación:</label>
+                        <input type="number" name="numId" id="numId" placeholder="Ingresa el numero de identificación">
+                    </p>
+                    <p>
+                        <label for="dateIng">Fecha de Ingreso</label>
+                        <input type="date" name="dateIng" id="dateIng" >
+                    </p>
+                </div>
+                <div>
+                    <p>
+                        <label for="team">Selecciona el Team Peterneciente</label>
+                        <select name="team" id="team">
+                            <option value="none">Selecciona el team</option>
+                            <option value="1">Team Sputnik</option>
+                            <option value="2">Team Artemis</option>
+                            <option value="3">Team Apolo</option>
+                        </select>
+                    </p>
+                    <input type="submit" value="Guardar">
+                </div>
+            </fieldset>
+        </form>
+
+<!-- Formulario para que los trainers evaluen reclutas -->
+    <form class="form" id="evaluacion">
+        <fieldset>
+            <legend>Evaluación</legend>
+            <div>
+                <p>
+                    <label for="">Nombre del Recluta:</label>
+                    <input type="text" placeholder="Ingresa el nombre del recluta">
+                </p>
+                <p>
+                    <label for="">Skill:</label>
+                    <input type="text" placeholder="Ingresa skill evaluada">
+                </p>
+            </div>
+            <div>
+                <p>
+                    <label for="">Nota:</label>
+                    <input type="text" placeholder="Ingresa la nota del recluta">
+                </p>
+                <button  type="submit">Guardar</button>
+            </div>
+        </fieldset>
+    </form>
+
+</body>
+</html>

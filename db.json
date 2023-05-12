@@ -1,0 +1,49 @@
+{
+  "reclutas": [
+    {
+      "nombre": "Vicky",
+      "edad": "17",
+      "telefono": "3224543241",
+      "email": "vmontanez707@gmail.com",
+      "direccion": "Cll 56 #13-36",
+      "dateBirth": "2005-07-03",
+      "numId": "1095792883",
+      "dateIng": "2023-01-22",
+      "team": "1",
+      "id": 1
+    },
+    {
+      "nombre": "Dieguito",
+      "edad": "16",
+      "telefono": "3333333",
+      "email": "digo",
+      "direccion": "aaaaa",
+      "dateBirth": "2023-05-01",
+      "numId": "1111111111111111",
+      "dateIng": "2023-05-30",
+      "team": "1",
+      "id": 2
+    }
+  ],
+  "team": [],
+  "skill": [],
+  "modulo_skill": [],
+  "notas": [
+    {
+      "id": 1
+    },
+    {
+      "nombre": "Vicky",
+      "skill": "JavaScript",
+      "nota": 4.5,
+      "id": 2
+    },
+    {
+      "id": 3
+    },
+    {
+      "id": 4
+    }
+  ],
+  "users": []
+}
