@@ -9,7 +9,7 @@
       "dateBirth": "2005-07-03",
       "numId": "1095792883",
       "dateIng": "2023-01-22",
-      "team": "1",
+      "team": "Sputnik",
       "id": 1
     },
     {
@@ -21,29 +21,169 @@
       "dateBirth": "2023-05-01",
       "numId": "1111111111111111",
       "dateIng": "2023-05-30",
-      "team": "1",
-      "id": 2
-    }
-  ],
-  "team": [],
-  "skill": [],
-  "modulo_skill": [],
-  "notas": [
-    {
-      "id": 1
-    },
-    {
-      "nombre": "Vicky",
-      "skill": "JavaScript",
-      "nota": 4.5,
+      "team": "Sputnik",
       "id": 2
     },
     {
+      "nombre": "Konny",
+      "edad": "17",
+      "telefono": "32088888444",
+      "email": "konnylinda@gmail.com",
+      "direccion": "la cumbre",
+      "dateBirth": "2005-08-08",
+      "numId": "1111111111",
+      "dateIng": "2023-01-22",
+      "team": "Apolo",
       "id": 3
     },
     {
+      "nombre": "Jhon David Hernández ",
+      "edad": "17",
+      "telefono": "11111111111111111",
+      "email": "1111111111111111111",
+      "direccion": "1111111111111111111",
+      "dateBirth": "2023-05-02",
+      "numId": "1111111111111111",
+      "dateIng": "2023-05-03",
+      "team": "Sputnik",
       "id": 4
+    },
+    {
+      "nombre": "Yedher",
+      "edad": "17",
+      "telefono": "324563454",
+      "email": "yedher81@gmail.com",
+      "direccion": "Cll 34 #12-23",
+      "dateBirth": "2023-05-04",
+      "numId": "124557653",
+      "dateIng": "2023-05-03",
+      "team": "Artemis",
+      "id": 5
+    },
+    {
+      "nombre": "Juancho Fidel Castro",
+      "edad": "16",
+      "telefono": "3173080972",
+      "email": "jfidelcastro96@gmail.com",
+      "direccion": "Cll 204A  #40-129",
+      "dateBirth": "2006-09-13",
+      "numId": "1096949090",
+      "dateIng": "2023-05-02",
+      "team": "Sputnik",
+      "id": 6
     }
   ],
-  "users": []
+  "team": [
+    {
+      "nombre": "Sputnik",
+      "trainer": "Miguel",
+      "id": 1
+    },
+    {
+      "nombre": "Artemis",
+      "trainer": "Vermet",
+      "id": 2
+    },
+    {
+      "nombre": "Apolo",
+      "trainer": "Jlhover",
+      "id": 3
+    }
+  ],
+  "skill": [
+    {
+      "skill": "Razonamiento lógico",
+      "id": 1
+    },
+    {
+      "skill": "Lógica matemática básica",
+      "id": 2
+    },
+    {
+      "skill": "Algebra",
+      "id": 3
+    }
+  ],
+  "modulo_skill": [
+    {
+      "modulo": "HTML5",
+      "id": 1
+    },
+    {
+      "modulo": "CSS3",
+      "id": 2
+    },
+    {
+      "modulo": "PYTHON",
+      "id": 3
+    },
+    {
+      "modulo": "JAVASCRIPT",
+      "id": 4
+    },
+    {
+      "modulo": "PHP",
+      "id": 5
+    }
+  ],
+  "notas": [
+    {
+      "nombre": "Vicky",
+      "skill": "JavaScript",
+      "nota": "3.0",
+      "id": 1
+    },
+    {
+      "nombre": "Dieguito",
+      "skill": "Terminal Windows",
+      "nota": "1.5",
+      "id": 2
+    },
+    {
+      "nombre": "Konny",
+      "skill": "CSS",
+      "nota": "5.0",
+      "id": 3
+    },
+    {
+      "nombre": "Jhon David Hernandez",
+      "skill": "JavaScript ",
+      "nota": "5.0",
+      "id": 4
+    },
+    {
+      "nombre": "Yedher",
+      "skill": "JavaScript ",
+      "nota": "4.5",
+      "id": 5
+    },
+    {
+      "nombre": "Juancho Fidel Castro",
+      "skill": "Algebra",
+      "nota": "5.0",
+      "id": 6
+    }
+  ],
+  "users": [
+    {
+      "user": "Vicky",
+      "password": "1234",
+      "id": 1
+    },
+    {
+      "user": "Konny",
+      "password": "5678",
+      "id": 2
+    },
+    {
+      "user": "Diego",
+      "password": "3333",
+      "id": 3
+    },
+    {
+      "user": "Roberto",
+      "password": "1234234123",
+      "id": 4
+    }
+  ]
 }

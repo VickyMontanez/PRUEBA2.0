@@ -20,7 +20,7 @@
                     </p>
                     <p>
                         <label for="edad">Edad:</label>
-                        <input type="text" name="edad" id="edad" placeholder="Ingresa la edad del recluta">
+                        <input type="number" name="edad" id="edad" placeholder="Ingresa la edad del recluta">
                     </p>
                 </div>
                 <div>
@@ -30,7 +30,7 @@
                     </p>
                     <p>
                         <label for="email">Email</label>
-                        <input type="text" name="email" id="email" placeholder="Ingresa el email del recluta">
+                        <input type="email" name="email" id="email" placeholder="Ingresa el email del recluta">
                     </p>
                 </div>
                 <div>
@@ -58,9 +58,9 @@
                         <label for="team">Selecciona el Team Peterneciente</label>
                         <select name="team" id="team">
                             <option value="none">Selecciona el team</option>
-                            <option value="1">Team Sputnik</option>
-                            <option value="2">Team Artemis</option>
-                            <option value="3">Team Apolo</option>
+                            <option value="Sputnik">Team Sputnik</option>
+                            <option value="Artemis">Team Artemis</option>
+                            <option value="Apolo">Team Apolo</option>
                         </select>
                     </p>
                     <input type="submit" value="Guardar">
@@ -69,23 +69,23 @@
         </form>
 
 <!-- Formulario para que los trainers evaluen reclutas -->
-    <form class="form" id="evaluacion">
+    <form id="evaluacion">
         <fieldset>
             <legend>Evaluación</legend>
             <div>
                 <p>
-                    <label for="">Nombre del Recluta:</label>
-                    <input type="text" placeholder="Ingresa el nombre del recluta">
+                    <label for="nombre">Nombre del Recluta:</label>
+                    <input name="nombre" id="nombre" type="text" placeholder="Ingresa el nombre del recluta">
                 </p>
                 <p>
-                    <label for="">Skill:</label>
-                    <input type="text" placeholder="Ingresa skill evaluada">
+                    <label for="skill">Skill:</label>
+                    <input name="skill" id="skill" type="text" placeholder="Ingresa skill evaluada">
                 </p>
             </div>
             <div>
                 <p>
-                    <label for="">Nota:</label>
-                    <input type="text" placeholder="Ingresa la nota del recluta">
+                    <label for="nota">Nota:</label>
+                    <input name="nota" id="nota" type="number" placeholder="Ingresa la nota del recluta">
                 </p>
                 <button  type="submit">Guardar</button>
             </div>

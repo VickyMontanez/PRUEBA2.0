@@ -19,11 +19,11 @@ export default {
         try {
             let config = {
                 method:"GET",
-                header:{"Content-Type":"application/json"},
+                headers:{"Content-Type":"application/json"},
             };
             let showData = await fetch(`${url}/reclutas`,config);
             let results = await showData.json();
-            console.log(results);
+            return results;
         } catch (error) {
             console.log(error);
         }
@@ -50,6 +50,8 @@ export default {
             console.log(error);
         }
     },
+
+    
 }
 
 

@@ -15,6 +15,7 @@ let formEvaluacion = document.querySelector("#evaluacion");
 formEvaluacion.addEventListener("submit", async(e)=>{
     e.preventDefault();
     let formNotas = Object.fromEntries(new FormData(e.target));
+    console.log(formNotas);
     let data = await trainers_api.addNota(formNotas);
     console.log(data);
     formEvaluacion.reset();
