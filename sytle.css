@@ -1,0 +1,77 @@
+@font-face {
+    font-family: "write" ;
+    src: url("./font/Alone\ On\ Earth.otf");
+}
+
+body{
+    background-image:url("./img/login_background.jpg") ;
+}
+.modalContainer{
+    display: flex;
+    background-color: #fffbfb;
+    width: 615px;
+    height: 200px;
+    padding: 20px 50px 50px 0px;
+    border: 2px solid #cac9c9 ;
+    border-radius: 31px;
+    font-family: "write";
+    overflow-x: hidden;
+}
+
+.modal-header{
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    width: 375px;
+}
+
+.x{
+    width: 30px;
+    height: 30px;
+    border: 0.5px solid #ffffff;
+    border-radius: 20px;
+    background-color: #E76161;
+    font-size: 20px;
+    color:#ffffff
+}
+
+.modal-body{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.form-control{
+    width: 370px;
+    height: 20px;
+    border: 0.5px solid #cac9c9;
+    border-radius: 5px;
+}
+
+.img{
+    margin-right: 20px;
+}
+
+.close{
+    background-color: #E76161;
+    color: #ffffff;
+    height: 25px;
+    border: 0.5px solid #ffffff;
+    border-radius: 5px;
+    font-family: "write";
+    font-size: 20px;
+}
+
+.submit{
+    background-color: #8BACAA;
+    color: #000;
+    height: 25px;
+    border: 0.5px solid #ffffff;
+    border-radius: 5px;
+    font-family: "write";
+    font-size: 20px;
+}
