@@ -36,17 +36,16 @@ async function buscador(sesionado){
     }
 };
 
-let modalC = document.querySelector("#containerRegistrar");
+let modal = document.querySelector("#containerRegistrar");
 let cerrar = document.querySelector("#close-re");
 let abrir = document.querySelector("#botonRegistrar");
 
 abrir.addEventListener("click",()=>{
-    modalC.showModal();
-    modalC.classList.add(".abrir")
+    modal.classList.toggle("cerrar-modal");
 });
 
-cerrar.addEventListener("click", ()=>{
-    modalC.close();
+cerrar.addEventListener("click",()=>{
+    modal.classList.add("cerrar-modal");
 });
 
 let modalIn = document.querySelector("#containerIniciarSesion");
@@ -54,10 +53,15 @@ let close = document.querySelector("#close-ini");
 let open = document.querySelector("#botonIniciar");
 
 open.addEventListener("click",()=>{
-    modalIn.showModal();
-    modalC.classList.add(".abrir")
+    modalIn.classList.toggle("cerrar-modal");
 });
 
-close.addEventListener("click", ()=>{
-    modalIn.close();
+close.addEventListener("click",()=>{
+    modalIn.classList.add("cerrar-modal");
 });
+
+if (modal.classList.toggle("cerrar-modal") === modalIn.classList.toggle("cerrar-modal")) {
+    modalIn.classList.add("cerrar-modal");
+} else if(modal === modalIn.classList.toggle){
+    modal.classList.add("cerrar-modal");
+}

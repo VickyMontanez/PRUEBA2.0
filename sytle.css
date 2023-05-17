@@ -4,9 +4,9 @@
 }
 
 body{
-    background-image:url("./img/login_background.jpg") ;
+    background-color: #E76161;
 }
-.modalContainer{
+.modal{
     display: flex;
     background-color: #fffbfb;
     width: 615px;
@@ -16,6 +16,8 @@ body{
     border-radius: 31px;
     font-family: "write";
     overflow-x: hidden;
+    transition: transform 1s;
+    transform: translateY(100%);
 }
 
 .modal-header{
@@ -74,4 +76,8 @@ body{
     border-radius: 5px;
     font-family: "write";
     font-size: 20px;
+}
+
+.cerrar-modal{
+    transform: translateY(-200%);
 }
