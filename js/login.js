@@ -36,10 +36,28 @@ async function buscador(sesionado){
     }
 };
 
-let modalC = document.querySelectorAll(".modalContainer")
-let cerrar = document.querySelectorAll(".btn-close");
+let modalC = document.querySelector("#containerRegistrar");
+let cerrar = document.querySelector("#close-re");
+let abrir = document.querySelector("#botonRegistrar");
 
-cerrar.addEventListener("click", function(){
-    modalC.classList.toggle("modal-close");
-    modalC.style.vissibility = "hidden"
-})
+abrir.addEventListener("click",()=>{
+    modalC.showModal();
+    modalC.classList.add(".abrir")
+});
+
+cerrar.addEventListener("click", ()=>{
+    modalC.close();
+});
+
+let modalIn = document.querySelector("#containerIniciarSesion");
+let close = document.querySelector("#close-ini");
+let open = document.querySelector("#botonIniciar");
+
+open.addEventListener("click",()=>{
+    modalIn.showModal();
+    modalC.classList.add(".abrir")
+});
+
+close.addEventListener("click", ()=>{
+    modalIn.close();
+});

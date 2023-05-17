@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="../js/login.js" type="module" defer></script>
+    <link rel="stylesheet" href="./sytle.css" async>
+</head>
+
+<body>
+    <nav>HHHOHOOLAAAA</nav>
+    <button type="button" id="botonRegistrar">Registrase</button>
+    <button type="button" id="botonIniciar">Iniciar Sesión</button>
+
+    <dialog  class="modalContainer modal-close" id="containerRegistrar">
+        <div class="img">
+            <img src="./img/carta-registrarse.png">
+        </div>
+        <form class="form" id="login">
+            <div class="modal-header">
+                <h1 class="modal-title" id="exampleModalLabel">¡Registrate!</h1>
+                <button type="button" class="btn-close x">x</button>
+            </div>
+            <div class="modal-body">
+                <div>
+                    <label for="user" class="col-form-label">User:</label>
+                    <input type="text" name="user" class="form-control" id="user">
+                </div>
+                <div>
+                    <label for="password" class="col-form-label">Password:</label>
+                    <input type="password" name="password"class="form-control" id="password">
+                </div>
+            </div>
+            <button type="button" class="btn-close close" id="close-re">Close</button>
+            <button type="submit" class="submit">Registrarse</button>
+        </form>
+    </dialog>
+
+    <dialog class="modalContainer modal-close" id="containerIniciarSesion">
+        <div class="img">
+            <img src="./img/puerta-iniciarsesion.png" alt="" srcset="">
+        </div> 
+        <form class="form" id="login-iniciar">
+            <div class="modal-header">
+                <h1 class="modal-title" id="exampleModalLabel">¡Inicia Sesion!</h1>
+                <button type="button" class="btn-close x">x</button>
+            </div>
+            <div class="modal-body">
+                <div>
+                    <label for="user" class="col-form-label">User:</label>
+                    <input type="text" name="user" class="form-control" id="inputUser">
+                </div>
+                <div>
+                    <label for="password" class="col-form-label">Password:</label>
+                    <input type="password" name="password" class="form-control" id="inputPassword">
+                </div>
+            </div>
+            <button type="button" class="btn-close close" id="close-ini">Close</button>
+            <button type="submit" class="submit">Iniciar Sesion</button>
+        </form>
+    </dialog>
+</body>
+
+</html>
